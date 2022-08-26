@@ -18,10 +18,10 @@ if __name__ == "__main__":
     screen = pygame.display.set_mode((600,600)) # Create display
 
     # Picture
-    image = pygame.image.load('additionalFolder\Clock.png') # Clock
+    image = pygame.image.load('Clock.png') # Clock
 
     pygame.display.set_caption("Clock") # Set title
-    pygame.display.set_icon(pygame.image.load("additionalFolder\IconClock.ico")) # Set icon
+    pygame.display.set_icon(pygame.image.load("IconClock.ico")) # Set icon
 
     #color
     red = (225, 74, 74)
